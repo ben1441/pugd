@@ -74,3 +74,32 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+  .morphism {
+    background: rgba(149, 0, 255, 0.19);
+    box-shadow: 0 8px 20px 0 rgba(93, 3, 121, 0.37);
+    /*backdrop-filter: blur( 12px );*/
+    /*-webkit-backdrop-filter: blur( 12px );*/
+    border-radius: 50px;
+    /*border: 2px solid rgb(174, 0, 255);*/
+
+  }
+
+  .soft-circle {
+    border-radius: 609px;
+    background: rgba(255, 226, 255, 0.20);
+    filter: blur(21px);
+  }
+
+  .wagmi-gradient {
+    background: linear-gradient(91deg, #FFF 5.37%, #E6BEF9 28.63%, #CCA4FF 51.45%, #FFB7F8 83.11%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .z-behind {
+    z-index: -1;
+  }
+}

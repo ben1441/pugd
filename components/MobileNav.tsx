@@ -20,13 +20,13 @@ const MobileNav = () => {
           alt="Menu"
           width={36}
           height={36}
-          className="mx-4 invert sm:hidden"
+          className="mx-4 sm:hidden"
         />
       </SheetTrigger>
-      <SheetContent side="left" className="bg-lime-100 border-none">
+      <SheetContent side="left" className="bg-[#9A6AEC] border-none">
         <Link href="/" className="flex items-center gap-1">
-          <Image src="/logo.png" alt="Rektum" width={36} height={36} />
-          <p className="text-red-400 text-4xl p-4 font-bold">Rektum</p>
+          <Image src="/logo.png" alt="Wagmi" width={36} height={36} />
+          <p className="text-white text-4xl p-4 font-bold">Wagmi</p>
         </Link>
         <SheetClose asChild>
           <section className="flex h-full flex-col gap-6 pt-16 items-start">
@@ -40,9 +40,8 @@ const MobileNav = () => {
                   alt=""
                   width={20}
                   height={20}
-                  className="invert"
                 />
-                <p className="text-red-400 font-bold text-xl">Home</p>
+                <p className="text-white font-bold text-xl">Home</p>
               </Link>
             </SheetClose>
             <SheetClose className="border-none">
@@ -55,9 +54,8 @@ const MobileNav = () => {
                   alt=""
                   width={20}
                   height={20}
-                  className="invert"
                 />
-                <p className="text-red-400 font-bold text-xl">About</p>
+                <p className="text-white font-bold text-xl">About</p>
               </Link>
             </SheetClose>
             <SheetClose className="border-none">
@@ -70,9 +68,8 @@ const MobileNav = () => {
                   alt=""
                   width={20}
                   height={20}
-                  className="invert"
                 />
-                <p className="text-red-400 font-bold text-xl">Contact</p>
+                <p className="text-white font-bold text-xl">Contact</p>
               </Link>
             </SheetClose>
           </section>
