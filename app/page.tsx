@@ -26,6 +26,7 @@ export default function Home() {
           </div>
           <Image src="/wagmi-hero.png" alt="Wagmi" width={500} height={200} />
         </div>
+        <div className="w-screen h-1 -mt-6 bg-purple-800"></div>
       </div>
     </div>
     <Roadmap />
