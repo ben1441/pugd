@@ -86,6 +86,10 @@
 
   }
 
+  .bg-gradient {
+    background: linear-gradient(90deg, #AB82F0 0%, #9A6AEC 40.1%, #8548ED 100%);
+  }
+
   .soft-circle {
     border-radius: 609px;
     background: rgba(255, 226, 255, 0.20);

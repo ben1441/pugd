@@ -4,7 +4,7 @@ import Roadmap from "@/components/Roadmap";
 
 export default function Home() {
   return <div>
-    <div className="flex bg-[#9A6AEC] items-center justify-between min-h-screen h-auto w-screen">
+    <div className="flex bg-gradient items-center justify-between h-auto w-screen">
       <div className="absolute soft-circle w-[400px] md:w-[600px] h-[400px] md:h-[600px] -top-[150px] md:-top-[240px] lg:-top-[233px] -left-[150px] min-[480px]:-left-[100px] md:-left-[180px] lg:-left-[163px]"></div>
       {/*<div className="absolute soft-circle w-[300px] h-[300px] bottom-0 -right-[10%]"></div>*/}
       {/*<div className="flex flex-col items-center justify-center mt-20 w-auto h-auto">*/}
