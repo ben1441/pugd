@@ -13,7 +13,7 @@ export default function Home() {
       {/*  <Image src="/balloon.svg" alt="balloon" width={200} height={200} className="relative left-7" />*/}
       {/*</div>*/}
       <div className="flex flex-col items-start justify-center ml-6 min-[480px]:ml-10 sm:ml-32 lg:ml-40 gap-6">
-        <h1 className="wagmi-gradient font-bold min-[320px]:text-[80px] sm:text-[100px]">Wagmi</h1>
+        <h1 className="wagmi-gradient mt-20 font-bold min-[320px]:text-[80px] sm:text-[100px]">Wagmi</h1>
         <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elitt</p>
         <div className="flex max-sm:flex-col gap-8">
           <Link href="#more">
