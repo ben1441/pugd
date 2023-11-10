@@ -11,7 +11,7 @@ const Navbar = () => {
   const path = usePathname();
   console.log(path);
   return (
-    <div className="flex fixed top-5 left-[5%] items-center justify-center h-14 w-[90%] morphism">
+    <div className="flex fixed top-5 left-[5%] items-center justify-center h-14 w-[90%] bg-white/20 backdrop-blur morphism">
       <div className="flex items-end w-full justify-between">
         <Link href="/">
           <Image
