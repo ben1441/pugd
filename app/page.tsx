@@ -21,6 +21,7 @@ export default function Home() {
           </Link>
           <Link href="#getStarted">
             <button className="text-white font-bold btn-gradient-light w-32 h-10">Learn More</button>
+            <Image src="/wagmi-hero.png" alt="Wagmi" width={500} height={200} className="max-md:mt-8 lg:absolute lg:bottom-0 lg:right-0" />
           </Link>
         </div>
       </div>
