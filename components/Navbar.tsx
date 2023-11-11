@@ -6,10 +6,9 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 
 import MobileNav from "./MobileNav";
+import Scroll from "@/components/Scroll";
 
 const Navbar = () => {
-  const path = usePathname();
-  console.log(path);
   return (
     <div className="flex fixed top-5 left-[5%] items-center justify-center h-14 w-[90%] bg-white/20 backdrop-blur morphism">
       <div className="flex items-end w-full justify-between">
@@ -24,24 +23,10 @@ const Navbar = () => {
         </Link>
         <h1 className="text-3xl text-white font-bold">Wagmi</h1>
         <div className="max-sm:hidden flex items-center justify-between">
-          <Link href="/" className="flex items-center justify-start p4 gap-4">
             {/*<Image src="/home.svg" alt="" width={20} height={20} />*/}
-            <p className="text-white mx-12 text-lg font-bold">Home</p>
-          </Link>
-          <Link
-            href="#about"
-            className="flex items-center justify-start p4 gap-4"
-          >
-            {/*<Image src="/job.svg" alt="" width={20} height={20} />*/}
-            <p className="text-white mx-12 text-lg font-bold">About</p>
-          </Link>
-          <Link
-            href="#contact"
-            className="flex items-center justify-start p4 gap-4"
-          >
-            {/*<Image src="/user.svg" alt="" width={20} height={20} />*/}
-            <p className="text-white mx-12 text-lg font-bold">Contact</p>
-          </Link>
+          <button onClick={() => Scroll("home")} className="text-white mx-12 text-lg font-bold">Home</button>
+          <button onClick={() => Scroll("roadmap")} className="text-white mx-12 text-lg font-bold">About</button>
+          <button onClick={() => Scroll("footer")} className="text-white mx-12 text-lg font-bold">Contact</button>
         </div>
         <MobileNav />
       </div>

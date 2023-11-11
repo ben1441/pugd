@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Autour+One:wght@400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -90,6 +91,10 @@
     background: linear-gradient(90deg, #AB82F0 0%, #9A6AEC 40.1%, #8548ED 100%);
   }
 
+  .bg-gradient-new {
+    background: linear-gradient(90deg, #EFCDF1 0%, #E6B8FF 20.83%, #795FCA 61.46%, #2A227E 95.83%);
+  }
+
   .soft-circle {
     border-radius: 609px;
     background: rgba(255, 226, 255, 0.20);
@@ -103,6 +108,19 @@
     -webkit-text-fill-color: transparent;
   }
 
+  .text-gradient {
+    background: linear-gradient(91deg, #9320DA 5.37%, #A23ED0 28.63%, #8643DB 51.45%, #EA37D8 83.11%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .font-autour {
+    font-family: "Autour One", sans-serif;
+    font-style: normal;
+    line-height: normal;
+  }
+
   .z-behind {
     z-index: -1;
   }
@@ -111,6 +129,13 @@
     border-radius: 20px;
     border: 1px solid #B683EA;
     background: linear-gradient(92deg, rgba(147, 32, 218, 0.80) 9.88%, rgba(205, 109, 255, 0.80) 36.14%, rgba(173, 0, 255, 0.80) 65.36%, rgba(112, 0, 255, 0.47) 97.19%);
+    box-shadow: 1px 3px 5px 2px rgba(93, 44, 122, 0.49);
+  }
+
+  .btn-gradient-dark {
+    border-radius: 20px;
+    border: 1px solid #B683EA;
+    background: linear-gradient(92deg, rgba(128, 19, 212, 0.80) 9.88%, rgba(194, 126, 231, 0.80) 36.14%, rgba(163, 44, 205, 0.80) 65.36%, rgba(255, 19, 231, 0.80) 97.19%);
     box-shadow: 1px 3px 5px 2px rgba(93, 44, 122, 0.49);
   }
 

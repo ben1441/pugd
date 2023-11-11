@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/sheet";
 import Image from "next/image";
 import Link from "next/link";
+import Scroll from "@/components/Scroll";
 
 const MobileNav = () => {
   return (
@@ -31,8 +32,7 @@ const MobileNav = () => {
         <SheetClose asChild>
           <section className="flex h-full flex-col gap-6 pt-16 items-start">
             <SheetClose className="border-none">
-              <Link
-                href="/"
+              <div
                 className="flex items-center justify-start p-4 gap-4"
               >
                 <Image
@@ -41,12 +41,11 @@ const MobileNav = () => {
                   width={20}
                   height={20}
                 />
-                <p className="text-white font-bold text-xl">Home</p>
-              </Link>
+                <button onClick={() => Scroll("home")} className="text-white font-bold text-xl">Home</button>
+              </div>
             </SheetClose>
             <SheetClose className="border-none">
-              <Link
-                href="#about"
+              <div
                 className="flex items-center justify-start p-4 gap-4"
               >
                 <Image
@@ -55,12 +54,11 @@ const MobileNav = () => {
                   width={20}
                   height={20}
                 />
-                <p className="text-white font-bold text-xl">About</p>
-              </Link>
+                <button onClick={() => Scroll("roadmap")} className="text-white font-bold text-xl">About</button>
+              </div>
             </SheetClose>
             <SheetClose className="border-none">
-              <Link
-                href="#contact"
+              <div
                 className="flex items-center justify-start p-4 gap-4"
               >
                 <Image
@@ -69,8 +67,8 @@ const MobileNav = () => {
                   width={20}
                   height={20}
                 />
-                <p className="text-white font-bold text-xl">Contact</p>
-              </Link>
+                <button onClick={() => Scroll("footer")} className="text-white font-bold text-xl">Contact</button>
+              </div>
             </SheetClose>
           </section>
         </SheetClose>
