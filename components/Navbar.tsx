@@ -15,7 +15,7 @@ const Navbar = () => {
         <Link href="/">
           <Image
             src="/logo.png"
-            alt="Rektum"
+            alt="Wagmi"
             width={36}
             height={36}
             className="mx-4"
@@ -25,8 +25,8 @@ const Navbar = () => {
         <div className="max-sm:hidden flex items-center justify-between">
             {/*<Image src="/home.svg" alt="" width={20} height={20} />*/}
           <button onClick={() => Scroll("home")} className="text-white mx-12 text-lg font-bold">Home</button>
-          <button onClick={() => Scroll("roadmap")} className="text-white mx-12 text-lg font-bold">About</button>
-          <button onClick={() => Scroll("footer")} className="text-white mx-12 text-lg font-bold">Contact</button>
+          <button onClick={() => Scroll("about")} className="text-white mx-12 text-lg font-bold">About</button>
+          <button onClick={() => Scroll("roadmap")} className="text-white mx-12 text-lg font-bold">Roadmap</button>
         </div>
         <MobileNav />
       </div>

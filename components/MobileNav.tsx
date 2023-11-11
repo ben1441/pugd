@@ -24,7 +24,7 @@ const MobileNav = () => {
           className="mx-4 sm:hidden"
         />
       </SheetTrigger>
-      <SheetContent side="left" className="bg-[#9A6AEC] border-none">
+      <SheetContent side="left" className="bg-gradient border-none">
         <Link href="/" className="flex items-center gap-1">
           <Image src="/logo.png" alt="Wagmi" width={36} height={36} />
           <p className="text-white text-4xl p-4 font-bold">Wagmi</p>
@@ -54,7 +54,7 @@ const MobileNav = () => {
                   width={20}
                   height={20}
                 />
-                <button onClick={() => Scroll("roadmap")} className="text-white font-bold text-xl">About</button>
+                <button onClick={() => Scroll("about")} className="text-white font-bold text-xl">About</button>
               </div>
             </SheetClose>
             <SheetClose className="border-none">
@@ -67,7 +67,7 @@ const MobileNav = () => {
                   width={20}
                   height={20}
                 />
-                <button onClick={() => Scroll("footer")} className="text-white font-bold text-xl">Contact</button>
+                <button onClick={() => Scroll("roadmap")} className="text-white font-bold text-xl">Roadmap</button>
               </div>
             </SheetClose>
           </section>

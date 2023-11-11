@@ -24,8 +24,8 @@ export default function Home() {
             <p className="max-sm:text-gradient-mobile text-gradient font-autour ml-6 min-[480px]:ml-10 sm:ml-32 lg:ml-40">Lorem ipsum dolor sit amet, consectetur adipiscing elitt</p>
             <div className="flex max-sm:flex-col max-sm:gap-8 items-start justify-end md:justify-between max-md:w-screen">
               <div className="flex max-sm:gap-6 ml-8 md:ml-32 lg:ml-40 gap-8">
-                <button onClick={() => Scroll("roadmap")} className="text-white font-bold btn-gradient-dark w-32 h-10">Get Started</button>
-                <button className="text-white font-bold btn-gradient-light w-32 h-10">Learn More</button>
+                <button className="text-white font-bold btn-gradient-dark w-32 h-10">Chart</button>
+                <button className="text-white font-bold btn-gradient-light w-32 h-10">Buy</button>
               </div>
               <Image src="/wagmi-hero.png" alt="Wagmi" width={500} height={200} className="md:hidden" />
             </div>

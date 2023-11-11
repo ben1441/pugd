@@ -87,6 +87,10 @@
 
   }
 
+  .glass-shadow {
+    box-shadow: 0 8px 20px 0 rgba(93, 3, 121, 0.37);
+  }
+
   .bg-gradient {
     background: linear-gradient(90deg, #AB82F0 0%, #9A6AEC 40.1%, #8548ED 100%);
   }
@@ -117,6 +121,20 @@
 
   .text-gradient-mobile {
     background: linear-gradient(91deg, #9320DA 5.37%, #A23ED0 28.63%, #EA37D8 51.45%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .tokenomics {
+    background: linear-gradient(90deg, #7940DB 0%, #C426EE 60.58%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .purple-gradient {
+    background: linear-gradient(90deg, #805FB8 0%, #3B009F 60.58%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
