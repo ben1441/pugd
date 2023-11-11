@@ -115,6 +115,13 @@
     -webkit-text-fill-color: transparent;
   }
 
+  .text-gradient-mobile {
+    background: linear-gradient(91deg, #9320DA 5.37%, #A23ED0 28.63%, #EA37D8 51.45%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   .font-autour {
     font-family: "Autour One", sans-serif;
     font-style: normal;

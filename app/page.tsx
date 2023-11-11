@@ -21,7 +21,7 @@ export default function Home() {
         <div className="flex items-center w-screen justify-between">
           <div className="flex flex-col items-start gap-6 justify-between">
             <h1 className="text-gradient font-autour font-bold ml-6 min-[480px]:ml-10 sm:ml-32 lg:ml-40 max-[400px]:text-[70px] text-[100px]">WAGMI</h1>
-            <p className="text-gradient font-autour ml-6 min-[480px]:ml-10 sm:ml-32 lg:ml-40">Lorem ipsum dolor sit amet, consectetur adipiscing elitt</p>
+            <p className="max-sm:text-gradient-mobile text-gradient font-autour ml-6 min-[480px]:ml-10 sm:ml-32 lg:ml-40">Lorem ipsum dolor sit amet, consectetur adipiscing elitt</p>
             <div className="flex max-sm:flex-col max-sm:gap-8 items-start justify-end md:justify-between max-md:w-screen">
               <div className="flex max-sm:gap-6 ml-8 md:ml-32 lg:ml-40 gap-8">
                 <button onClick={() => Scroll("roadmap")} className="text-white font-bold btn-gradient-dark w-32 h-10">Get Started</button>
