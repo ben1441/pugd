@@ -21,7 +21,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="flex items-center justify-center text-white">
-                <p>2023 &copy; All right reserved</p>
+                <p>2023 &copy; All right reserved | Wagmi Inc.</p>
             </div>
         </div>
     )
