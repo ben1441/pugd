@@ -11,7 +11,8 @@ const Roadmap = () => {
                     <div className="bg-white/20 glass-shadow mt-8 p-4 rounded-lg w-auto">
                         <p className="max-sm:text-lg text-xl font-bold tokenomics">Name: WAGMI <br/>
                             Symbol: $WAGMI <br/>
-                            Total Supply: 100,000,000,000
+                            Total Supply: 100,000,000,000 <br/>
+                            Chain: ETH (ERC)
                         </p>
                     </div>
                     <Image src="/logo.png" alt="Wagmi" width={300} height={300} />
