@@ -54,7 +54,7 @@ const MobileNav = () => {
                   width={20}
                   height={20}
                 />
-                <button onClick={() => Scroll("about")} className="text-white font-bold text-xl">About</button>
+                <button onClick={() => Scroll("about")} className="text-white font-bold text-xl">Tokenomics</button>
               </div>
             </SheetClose>
             <SheetClose className="border-none">

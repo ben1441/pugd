@@ -24,9 +24,9 @@ const Navbar = () => {
         <h1 className="text-3xl text-white font-bold">Wagmi</h1>
         <div className="max-sm:hidden flex items-center justify-between">
             {/*<Image src="/home.svg" alt="" width={20} height={20} />*/}
-          <button onClick={() => Scroll("home")} className="text-white mx-12 text-lg font-bold">Home</button>
-          <button onClick={() => Scroll("about")} className="text-white mx-12 text-lg font-bold">About</button>
-          <button onClick={() => Scroll("roadmap")} className="text-white mx-12 text-lg font-bold">Roadmap</button>
+          <button onClick={() => Scroll("home")} className="text-white mx-10 text-lg font-bold">Home</button>
+          <button onClick={() => Scroll("about")} className="text-white mx-10 text-lg font-bold">Tokemonics</button>
+          <button onClick={() => Scroll("roadmap")} className="text-white mx-10 text-lg font-bold">Roadmap</button>
         </div>
         <MobileNav />
       </div>
