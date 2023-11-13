@@ -19,11 +19,7 @@ export default function Home() {
       <div className="flex flex-col mt-28 items-start justify-center gap-6">
         <div className="flex items-center w-screen justify-between">
           <div className="flex flex-col items-start gap-6 justify-between">
-            <ReactTyped
-                strings={["WAGMI"]}
-                typeSpeed={200}
-                className="text-white font-autour font-bold ml-6 min-[480px]:ml-10 sm:ml-32 lg:ml-40 max-[400px]:text-[70px] text-[100px]"
-            />
+            <h1 className="animate-type text-white font-autour font-bold ml-6 min-[480px]:ml-10 sm:ml-32 lg:ml-40 max-[400px]:text-[70px] text-[100px]">WAGMI</h1>
             <p className="text-white font-autour lg:max-w-5xl ml-6 min-[480px]:ml-10 sm:ml-32 lg:ml-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Proin fermentum leo vel orci porta non pulvinar.</p>
             <div className="flex max-sm:flex-col max-sm:gap-8 items-start justify-end md:justify-between max-md:w-screen">
               <div className="flex max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-6 ml-8 md:ml-32 lg:ml-40 gap-8">
