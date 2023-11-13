@@ -172,12 +172,13 @@
   }
 
   .animate-type {
-    animation: type 3s steps(5) 1s forwards infinite, blink 0.5s steps(1) infinite;
+    letter-spacing: 2px;
+    animation: type 1s steps(10) 1s forwards, blink 1s steps(1) infinite;
   }
 
   @keyframes type {
     to {
-      width: 5ch;
+      width: 7ch;
     }
   }
 

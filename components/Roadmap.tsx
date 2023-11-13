@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const Roadmap = () => {
     return (
@@ -38,6 +39,12 @@ const Roadmap = () => {
                 <Image src="/roadmap.svg" alt="Roadmap" width={1350} height={200} className="max-lg:hidden mb-8" />
                 <Image src="/roadmap_tab.svg" alt="Roadmap" width={600} height={200} className="max-sm:hidden lg:hidden mb-8" />
                 <Image src="/roadmap_mobile.svg" alt="Roadmap" width={300} height={200} className="sm:hidden mb-8" />
+            </div>
+            <h1 className="text-white text-lg md:text-xl lg:text-2xl">Have you seen our whitemap?</h1>
+            <div className="bg-white/20 rounded-lg glass-shadow w-3/4 max-w-[300px] h-14 mb-8 flex items-center justify-center">
+                <Link href="/whitemap.pdf">
+                    <p className="text-white">Take a Look</p>
+                </Link>
             </div>
         </div>
     )

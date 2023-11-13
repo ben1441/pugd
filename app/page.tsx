@@ -18,12 +18,12 @@ export default function Home() {
       <div className="flex flex-col mt-28 items-start justify-center gap-6">
         <div className="flex items-center w-screen justify-between">
           <div className="flex flex-col items-start gap-6 justify-between">
-            <h1 className="animate-type text-white font-autour font-bold ml-6 min-[480px]:ml-10 sm:ml-32 lg:ml-40 max-[400px]:text-[70px] text-[100px]">WAGMI</h1>
+            <h1 className="animate-type w-0 border-r-4 whitespace-nowrap overflow-hidden text-white font-bold ml-6 min-[480px]:ml-10 sm:ml-32 lg:ml-40 max-[400px]:text-[70px] text-[100px]">WAGMI</h1>
             <p className="text-white font-autour lg:max-w-5xl ml-6 min-[480px]:ml-10 sm:ml-32 lg:ml-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Proin fermentum leo vel orci porta non pulvinar.</p>
             <div className="flex max-sm:flex-col max-sm:gap-8 items-start justify-end md:justify-between max-md:w-screen">
-              <div className="flex max-sm:flex-col max-sm:items-center max-sm:justify-center max-sm:gap-6 ml-8 md:ml-32 lg:ml-40 gap-8">
-                <button className="text-white font-bold btn-gradient-dark w-32 h-10">Chart</button>
-                <button className="text-white font-bold btn-gradient-light w-32 h-10">Buy</button>
+              <div className="flex max-sm:flex-col max-sm:w-3/4 max-sm:items-center max-sm:justify-center max-sm:gap-6 ml-8 md:ml-32 lg:ml-40 gap-8">
+                <button className="text-white font-bold btn-gradient-dark max-sm:w-full w-40 h-12">Chart</button>
+                <button className="text-white font-bold btn-gradient-light max-sm:w-full w-40 h-12">Buy</button>
               </div>
               <Image src="/wagmi-hero.png" alt="Wagmi" width={500} height={200} className="md:hidden" />
             </div>
