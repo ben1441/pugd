@@ -1,7 +1,6 @@
 "use client"
 
 import Image from "next/image";
-import ReactTyped from "react-typed";
 import Roadmap from "@/components/Roadmap";
 import Footer from "@/components/Footer";
 
