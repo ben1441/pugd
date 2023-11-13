@@ -70,6 +70,19 @@ const MobileNav = () => {
                 <button onClick={() => Scroll("roadmap")} className="text-white font-bold text-xl">Roadmap</button>
               </div>
             </SheetClose>
+            <SheetClose className="border-none">
+              <div
+                  className="flex items-center justify-start p-4 gap-4"
+              >
+                <Image
+                    src="/home.svg"
+                    alt=""
+                    width={20}
+                    height={20}
+                />
+                <button onClick={() => Scroll("whitepaper")} className="text-white font-bold text-xl">Whitwpaper</button>
+              </div>
+            </SheetClose>
           </section>
         </SheetClose>
       </SheetContent>

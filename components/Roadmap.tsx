@@ -41,7 +41,7 @@ const Roadmap = () => {
                 <Image src="/roadmap_mobile.svg" alt="Roadmap" width={300} height={200} className="sm:hidden mb-8" />
             </div>
             <h1 className="text-white text-lg md:text-xl lg:text-2xl">Have you seen our whitepaper?</h1>
-            <div className="bg-white/20 rounded-lg glass-shadow w-3/4 max-w-[300px] h-14 mb-8 flex items-center justify-center">
+            <div id="whitepaper" className="bg-white/20 rounded-lg glass-shadow w-3/4 max-w-[300px] h-14 mb-8 flex items-center justify-center">
                 <Link href="/whitepaper.pdf">
                     <p className="text-white">Take a Look</p>
                 </Link>
