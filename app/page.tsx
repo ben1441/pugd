@@ -32,8 +32,8 @@ export default function Home() {
                       <div className="flex flex-col mt-28 items-start justify-center gap-6">
                           <div className="flex items-center w-screen justify-between">
                               <div className="flex flex-col items-start gap-6 justify-between">
-                                  <h1 className="text-[#796100] font-bold ml-6 min-[480px]:ml-10 sm:ml-32 lg:ml-40 max-[500px]:text-[45px] md:text-5xl text-7xl">LEMONHEAD</h1>
-                                  <p className="text-[#796100] font-autour lg:max-w-5xl ml-6 min-[480px]:ml-10 sm:ml-32 lg:ml-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Proin fermentum leo vel orci porta non pulvinar.</p>
+                                  <h1 className="text-[#796100] font-bold ml-6 min-[480px]:ml-10 lg:ml-40 max-[500px]:text-[45px] md:text-5xl text-7xl">LEMONHEAD</h1>
+                                  <p className="text-[#796100] font-autour lg:max-w-5xl ml-6 min-[480px]:ml-10 lg:ml-40">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempor nec feugiat nisl pretium fusce id velit ut tortor. Sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus. Pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Proin fermentum leo vel orci porta non pulvinar.</p>
                                   <div className="flex max-sm:flex-col max-sm:gap-8 items-start justify-end md:justify-between max-md:w-screen">
                                       <div className="flex max-md:flex-col max-sm:w-3/4 max-sm:items-center max-sm:justify-center max-sm:gap-6 ml-10 md:ml-28 lg:ml-40 gap-8">
                                           <button className="text-[#796100] font-bold btn-gradient-dark max-sm:w-full w-40 h-12">Chart</button>
