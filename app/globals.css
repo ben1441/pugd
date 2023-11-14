@@ -159,16 +159,16 @@
 
   .btn-gradient-dark {
     border-radius: 20px;
-    border: 1px solid #B683EA;
-    background: linear-gradient(92deg, rgba(128, 19, 212, 0.80) 9.88%, rgba(194, 126, 231, 0.80) 36.14%, rgba(163, 44, 205, 0.80) 65.36%, rgba(255, 19, 231, 0.80) 97.19%);
-    box-shadow: 1px 3px 5px 2px rgba(93, 44, 122, 0.49);
+    border: 1px solid #C29B00;
+    background: linear-gradient(92deg, rgba(195, 163, 34, 0.80) 9.73%, rgba(235, 191, 16, 0.80) 33.65%, rgba(245, 222, 128, 0.80) 60.25%, rgba(222, 177, 0, 0.80) 86.42%);
+    box-shadow: 1px 3px 5px 2px #BA8601;
   }
 
   .btn-gradient-light {
     border-radius: 20px;
-    border: 1px solid #B683EA;
-    background: linear-gradient(92deg, rgba(165, 88, 211, 0.80) 9.88%, rgba(210, 116, 255, 0.80) 37.1%, rgba(132, 35, 255, 0.42) 97.19%);
-    box-shadow: 4px 4px 4px 2px rgba(93, 44, 122, 0.49);
+    border: 1px solid #C6A10E;
+    background: linear-gradient(92deg, rgba(232, 185, 0, 0.80) 9.88%, rgba(245, 223, 135, 0.80) 40.2%, rgba(232, 200, 74, 0.80) 65.91%, rgba(170, 141, 24, 0.80) 97.19%);
+    box-shadow: 4px 4px 4px 2px rgba(186, 134, 1, 0.70);
   }
 
   .animate-type {

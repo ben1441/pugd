@@ -14,25 +14,21 @@ const Navbar = () => {
       <div className="flex items-end w-full justify-between">
         <Link href="/">
           <Image
-            src="/logo.png"
-            alt="Wagmi"
+            src="/background/b1.png"
+            alt="Lemon Head"
             width={36}
             height={36}
             className="mx-4"
           />
         </Link>
-        <h1 className="text-3xl text-white font-bold">Wagmi</h1>
+        <h1 className="text-2xl text-[#796100] font-bold">LEMONHEAD</h1>
         <div className="max-sm:hidden flex items-center justify-between">
-            {/*<Image src="/home.svg" alt="" width={20} height={20} />*/}
-          <button onClick={() => Scroll("home")} className="text-white mx-10 text-lg font-bold">Home</button>
-          <button onClick={() => Scroll("about")} className="text-white mx-10 text-lg font-bold">Tokemonics</button>
-          <button onClick={() => Scroll("roadmap")} className="text-white mx-10 text-lg font-bold">Roadmap</button>
+          <button onClick={() => Scroll("home")} className="text-[#796100] max-md:mx-[30px] mx-10 text-lg font-bold">Home</button>
+          <button onClick={() => Scroll("about")} className="text-[#796100] max-md:mx-[30px] mx-10 text-lg font-bold">Tokemonics</button>
+          <button onClick={() => Scroll("roadmap")} className="text-[#796100] max-md:mx-[30px] mx-10 text-lg font-bold">Roadmap</button>
         </div>
         <MobileNav />
       </div>
-      {/*<div className="relative">*/}
-      {/*  <div className="bg-white -z-10 h-32 w-32 rounded-full"></div>*/}
-      {/*</div>*/}
     </div>
   );
 };
