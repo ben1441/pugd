@@ -10,12 +10,12 @@ const Footer = () => {
                     <Player src="/instagram.json" loop autoplay />
                 </div>
                 <div className="m-2 w-16">
-                    <Link href="https://X.com/Nemukaeth">
+                    <Link href="">
                         <Player src="/facebook.json" loop autoplay />
                     </Link>
                 </div>
                 <div className="w-[90px]">
-                    <Link href="https://t.me/Nemukaportal">
+                    <Link href="">
                         <Player src="/telegram.json" loop autoplay />
                     </Link>
                 </div>

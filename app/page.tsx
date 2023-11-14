@@ -12,7 +12,7 @@ export default function Home() {
   const Loading = () => {
       return (
           <div className="flex bg-yellow-400 items-center justify-center w-screen h-screen">
-              <h1 className="text-white text-3xl font-bold animate-ping">LEMONHEAD</h1>
+              <h1 className="text-[#796100] text-3xl font-bold animate-ping">LEMONHEAD</h1>
           </div>
       )
   }
