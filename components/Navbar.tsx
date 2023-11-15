@@ -23,9 +23,9 @@ const Navbar = () => {
         </Link>
         <h1 className="text-2xl text-[#796100] font-bold">LEMONHEAD</h1>
         <div className="max-sm:hidden flex items-center justify-between">
-          <button onClick={() => Scroll("home")} className="text-[#796100] max-md:mx-[30px] mx-10 text-lg font-bold">Home</button>
-          <button onClick={() => Scroll("about")} className="text-[#796100] max-md:mx-[30px] mx-10 text-lg font-bold">Tokemonics</button>
-          <button onClick={() => Scroll("roadmap")} className="text-[#796100] max-md:mx-[30px] mx-10 text-lg font-bold">Roadmap</button>
+          <button onClick={() => Scroll("home")} className="text-[#796100] max-md:mx-6 mx-10 text-lg font-bold">Home</button>
+          <button onClick={() => Scroll("about")} className="text-[#796100] max-md:mx-6 mx-10 text-lg font-bold">Tokemonics</button>
+          <button onClick={() => Scroll("roadmap")} className="text-[#796100] max-md:mx-6 mx-10 text-lg font-bold">Roadmap</button>
         </div>
         <MobileNav />
       </div>

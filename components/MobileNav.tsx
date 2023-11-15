@@ -25,9 +25,9 @@ const MobileNav = () => {
         />
       </SheetTrigger>
       <SheetContent side="left" className="bg-gradient-to-r from-yellow-400 to-yellow-500 border-none">
-        <Link href="/" className="flex items-center gap-1">
+        <Link href="/" className="flex items-start justify-center ml-4">
           <Image src="/background/b1.png" alt="Lemon Head" width={36} height={36} />
-          <p className="text-[#796100] text-3xl p-4 font-bold">LEMONHEAD</p>
+          <p className="text-[#796100] text-3xl p-3 font-bold">LEMONHEAD</p>
         </Link>
         <SheetClose asChild>
           <section className="flex h-full flex-col gap-6 pt-16 items-start">
