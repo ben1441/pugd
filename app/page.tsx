@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Roadmap from "@/components/Roadmap";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -49,12 +50,17 @@ export default function Home() {
                   </p>
                   <div className="flex max-sm:flex-col max-sm:gap-8 items-start justify-end md:justify-between max-md:w-screen">
                     <div className="flex max-md:flex-col max-sm:w-3/4 max-sm:items-center max-sm:justify-center max-sm:gap-6 ml-10 md:ml-28 lg:ml-40 gap-8">
-                      <button className="text-[#925a0b] font-bold btn-gradient-dark max-sm:w-full w-40 h-12">
-                        Chart
-                      </button>
-                      <button className="text-[#925a0b] font-bold btn-gradient-light max-sm:w-full w-40 h-12">
-                        Buy
-                      </button>
+                      <Link href="https://www.dextools.io/app/en/bnb/pair-explorer/0x2746e2077291b1ac08935cd13235e58c1c335b89">
+                        <button className="text-[#925a0b] font-bold btn-gradient-dark max-sm:w-full w-40 h-12">
+                          Chart
+                        </button>
+                      </Link>
+
+                      <Link href="https://poocoin.app/tokens/0x2746e2077291b1ac08935cd13235e58c1c335b89">
+                        <button className="text-[#925a0b] font-bold btn-gradient-light max-sm:w-full w-40 h-12">
+                          Buy
+                        </button>
+                      </Link>
                     </div>
                     <Image
                       src="/background/b1.png"

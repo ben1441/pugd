@@ -9,7 +9,7 @@ const Roadmap = () => {
         id="about"
         className="flex flex-col items-center gap-6 justify-center"
       >
-        <h1 className="text-[#ff9564] font-autour font-bold mt-28 text-4xl min-[400px]:text-[42px] sm:text-7xl md:text-8xl">
+        <h1 className="text-[#ff9564] font-autour font-bold mt-28 text-4xl min-[440px]:text-[42px] sm:text-7xl md:text-8xl">
           TOKENOMICS
         </h1>
         <div className="flex max-sm:flex-col gap-3">
@@ -55,7 +55,7 @@ const Roadmap = () => {
         id="roadmap"
         className="flex flex-col gap-6 items-center justify-start"
       >
-        <h1 className="text-[#ff9564] font-autour font-bold mt-28 text-5xl min-[400px]:text-7xl sm:text-8xl">
+        <h1 className="text-[#ff9564] font-autour font-bold mt-28 text-5xl min-[440px]:text-7xl sm:text-8xl">
           ROADMAP
         </h1>
         <Image
