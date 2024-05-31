@@ -211,6 +211,15 @@
     box-shadow: 4px 4px 4px 2px rgba(186, 134, 1, 0.7);
   }
 
+  .bg-radial {
+    background: radial-gradient(
+      90.75% 90.75% at 50% 19.05%,
+      #c0afa5 30%,
+      #999999 71.84%,
+      #6a6969 100%
+    );
+  }
+
   .animate-type {
     letter-spacing: 2px;
     animation:

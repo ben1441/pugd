@@ -35,7 +35,7 @@ const MobileNav = () => {
             width={36}
             height={36}
           />
-          <p className="text-[#e28357] text-3xl p-3 font-bold">PugHopiumInu</p>
+          <p className="text-[#93563a] text-3xl p-3 font-bold">PugHopiumInu</p>
         </Link>
         <SheetClose asChild>
           <section className="flex h-full flex-col gap-6 pt-16 items-start">
@@ -44,7 +44,7 @@ const MobileNav = () => {
                 <Image src="/home.svg" alt="" width={20} height={20} />
                 <button
                   onClick={() => Scroll("home")}
-                  className="text-[#e28357] font-bold text-xl"
+                  className="text-[#93563a] font-bold text-xl"
                 >
                   Home
                 </button>
@@ -55,7 +55,7 @@ const MobileNav = () => {
                 <Image src="/job.svg" alt="" width={20} height={20} />
                 <button
                   onClick={() => Scroll("about")}
-                  className="text-[#e28357] font-bold text-xl"
+                  className="text-[#93563a] font-bold text-xl"
                 >
                   Tokenomics
                 </button>
@@ -66,7 +66,7 @@ const MobileNav = () => {
                 <Image src="/user.svg" alt="" width={20} height={20} />
                 <button
                   onClick={() => Scroll("roadmap")}
-                  className="text-[#e28357] font-bold text-xl"
+                  className="text-[#93563a] font-bold text-xl"
                 >
                   Roadmap
                 </button>
@@ -77,7 +77,7 @@ const MobileNav = () => {
                 <Image src="/home.svg" alt="" width={20} height={20} />
                 <button
                   onClick={() => Scroll("whitepaper")}
-                  className="text-[#e28357] font-bold text-xl"
+                  className="text-[#93563a] font-bold text-xl"
                 >
                   Whitwpaper
                 </button>

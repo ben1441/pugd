@@ -11,7 +11,7 @@ export default function Home() {
 
   const Loading = () => {
     return (
-      <div className="flex bg-[#999999] items-center justify-center w-screen h-screen">
+      <div className="flex bg-radial items-center justify-center w-screen h-screen">
         <h1 className="text-[#796100] text-3xl font-bold animate-ping">
           PugHopiumInu
         </h1>
@@ -26,21 +26,21 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div className="bg-radial">
       {isLoading && <Loading />}
       {!isLoading && (
         <div>
           <div
             id="home"
-            className="flex bg-[#999999] items-center scroll-smooth justify-between h-auto w-screen"
+            className="flex items-center scroll-smooth justify-between h-auto w-screen"
           >
             <div className="flex flex-col mt-28 items-start justify-center gap-6">
               <div className="flex items-center w-screen justify-between">
                 <div className="flex flex-col items-start gap-6 justify-between">
-                  <h1 className="text-[#ff9564] font-bold ml-6 min-[480px]:ml-10 lg:ml-40 max-[500px]:text-[45px] md:text-5xl text-7xl">
+                  <h1 className="text-[#142030] font-bold ml-6 min-[480px]:ml-10 lg:ml-40 max-[500px]:text-[45px] md:text-5xl text-7xl">
                     PugHopiumInu
                   </h1>
-                  <p className="text-[#f7a97c] font-autour lg:max-w-5xl ml-6 min-[480px]:ml-10 lg:ml-40">
+                  <p className="text-[#93563a] font-autour lg:max-w-5xl ml-6 min-[480px]:ml-10 lg:ml-40">
                     In a whimsical world where digital currencies and adorable
                     pugs collide, <br /> "PugHopium" takes center stage as the
                     token with an extraordinary twist. The story unfolds in a
@@ -50,13 +50,19 @@ export default function Home() {
                   </p>
                   <div className="flex max-sm:flex-col max-sm:gap-8 items-start justify-end md:justify-between max-md:w-screen">
                     <div className="flex max-md:flex-col max-sm:w-3/4 max-sm:items-center max-sm:justify-center max-sm:gap-6 ml-10 md:ml-28 lg:ml-40 gap-8">
-                      <Link href="https://www.dextools.io/app/en/bnb/pair-explorer/0x2746e2077291b1ac08935cd13235e58c1c335b89">
+                      <Link
+                        className="w-40"
+                        href="https://www.dextools.io/app/en/bnb/pair-explorer/0x2746e2077291b1ac08935cd13235e58c1c335b89"
+                      >
                         <button className="text-[#925a0b] font-bold btn-gradient-dark max-sm:w-full w-40 h-12">
                           Chart
                         </button>
                       </Link>
 
-                      <Link href="https://poocoin.app/tokens/0x2746e2077291b1ac08935cd13235e58c1c335b89">
+                      <Link
+                        className="w-40"
+                        href="https://poocoin.app/tokens/0x2746e2077291b1ac08935cd13235e58c1c335b89"
+                      >
                         <button className="text-[#925a0b] font-bold btn-gradient-light max-sm:w-full w-40 h-12">
                           Buy
                         </button>

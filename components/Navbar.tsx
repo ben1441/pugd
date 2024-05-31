@@ -20,25 +20,25 @@ const Navbar = () => {
             className="mx-4"
           />
         </Link>
-        <h1 className="text-2xl text-[#e28357] font-bold">PugHopiumInu</h1>
+        <h1 className="text-2xl text-[#93563a] font-bold">PugHopiumInu</h1>
         <div className="max-sm:hidden flex items-center justify-between">
           <button
             onClick={() => Scroll("home")}
-            className="text-[#e28357] max-md:mx-6 mx-8 lg:mx-10 text-lg font-bold"
+            className="text-[#93563a] max-md:mx-6 mx-8 lg:mx-10 text-lg font-bold"
           >
             Home
           </button>
           <button
             onClick={() => Scroll("about")}
-            className="text-[#e28357] max-md:mx-6 mx-8 lg:mx-10 text-lg font-bold"
+            className="text-[#93563a] max-md:mx-6 mx-8 lg:mx-10 text-lg font-bold"
           >
             Tokemonics
           </button>
           <button
-            onClick={() => Scroll("roadmap")}
-            className="text-[#e28357] max-md:mx-6 mx-8 lg:mx-10 text-lg font-bold"
+            onClick={() => Scroll("whitepaper")}
+            className="text-[#93563a] max-md:mx-6 mx-8 lg:mx-10 text-lg font-bold"
           >
-            Roadmap
+            Whitepaper
           </button>
         </div>
         <MobileNav />

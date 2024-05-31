@@ -20,7 +20,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className="flex items-center justify-center text-[#ff9564]">
+      <div className="flex items-center justify-center text-[#93563a]">
         <p>&copy; PugHopiumInu. 2024 All right reserved.</p>
       </div>
     </div>
