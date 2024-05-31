@@ -79,7 +79,7 @@ const MobileNav = () => {
                   onClick={() => Scroll("whitepaper")}
                   className="text-[#93563a] font-bold text-xl"
                 >
-                  Whitwpaper
+                  Whitepaper
                 </button>
               </div>
             </SheetClose>
