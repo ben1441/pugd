@@ -2,7 +2,6 @@
 
 import React from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import Image from "next/image";
 
 import MobileNav from "./MobileNav";
@@ -15,17 +14,32 @@ const Navbar = () => {
         <Link href="/">
           <Image
             src="/background/b1.png"
-            alt="Lemon Head"
+            alt="PugHopiumInu"
             width={36}
             height={36}
             className="mx-4"
           />
         </Link>
-        <h1 className="text-2xl text-[#796100] font-bold">LEMONHEAD</h1>
+        <h1 className="text-2xl text-[#e28357] font-bold">PugHopiumInu</h1>
         <div className="max-sm:hidden flex items-center justify-between">
-          <button onClick={() => Scroll("home")} className="text-[#796100] max-md:mx-6 mx-10 text-lg font-bold">Home</button>
-          <button onClick={() => Scroll("about")} className="text-[#796100] max-md:mx-6 mx-10 text-lg font-bold">Tokemonics</button>
-          <button onClick={() => Scroll("roadmap")} className="text-[#796100] max-md:mx-6 mx-10 text-lg font-bold">Roadmap</button>
+          <button
+            onClick={() => Scroll("home")}
+            className="text-[#e28357] max-md:mx-6 mx-8 lg:mx-10 text-lg font-bold"
+          >
+            Home
+          </button>
+          <button
+            onClick={() => Scroll("about")}
+            className="text-[#e28357] max-md:mx-6 mx-8 lg:mx-10 text-lg font-bold"
+          >
+            Tokemonics
+          </button>
+          <button
+            onClick={() => Scroll("roadmap")}
+            className="text-[#e28357] max-md:mx-6 mx-8 lg:mx-10 text-lg font-bold"
+          >
+            Roadmap
+          </button>
         </div>
         <MobileNav />
       </div>

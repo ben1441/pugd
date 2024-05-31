@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Autour+One:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Autour+One:wght@400&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
- 
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -10,63 +10,63 @@
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
- 
+
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
- 
+
     --primary: 222.2 47.4% 11.2%;
     --primary-foreground: 210 40% 98%;
- 
+
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
- 
+
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
- 
+
     --accent: 210 40% 96.1%;
     --accent-foreground: 222.2 47.4% 11.2%;
- 
+
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
- 
+
     --radius: 0.5rem;
   }
- 
+
   .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
- 
+
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
- 
+
     --popover: 222.2 84% 4.9%;
     --popover-foreground: 210 40% 98%;
- 
+
     --primary: 210 40% 98%;
     --primary-foreground: 222.2 47.4% 11.2%;
- 
+
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
- 
+
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
- 
+
     --accent: 217.2 32.6% 17.5%;
     --accent-foreground: 210 40% 98%;
- 
+
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
- 
+
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
   }
 }
- 
+
 @layer base {
   * {
     @apply border-border;
@@ -84,7 +84,6 @@
     /*-webkit-backdrop-filter: blur( 12px );*/
     border-radius: 50px;
     /*border: 2px solid rgb(174, 0, 255);*/
-
   }
 
   .glass-shadow {
@@ -92,49 +91,72 @@
   }
 
   .bg-gradient {
-    background: linear-gradient(90deg, #8A74C5 0%, #5C49B1 95.83%);
+    background: linear-gradient(90deg, #8a74c5 0%, #5c49b1 95.83%);
   }
 
   .bg-gradient-new {
-    background: linear-gradient(90deg, #EFCDF1 0%, #E6B8FF 20.83%, #795FCA 61.46%, #2A227E 95.83%);
+    background: linear-gradient(
+      90deg,
+      #efcdf1 0%,
+      #e6b8ff 20.83%,
+      #795fca 61.46%,
+      #2a227e 95.83%
+    );
   }
 
   .soft-circle {
     border-radius: 609px;
-    background: rgba(255, 226, 255, 0.20);
+    background: rgba(255, 226, 255, 0.2);
     filter: blur(21px);
   }
 
   .wagmi-gradient {
-    background: linear-gradient(91deg, #FFF 5.37%, #E6BEF9 28.63%, #CCA4FF 51.45%, #FFB7F8 83.11%);
+    background: linear-gradient(
+      91deg,
+      #fff 5.37%,
+      #e6bef9 28.63%,
+      #cca4ff 51.45%,
+      #ffb7f8 83.11%
+    );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .text-gradient {
-    background: linear-gradient(91deg, #9320DA 5.37%, #A23ED0 28.63%, #8643DB 51.45%, #EA37D8 83.11%);
+    background: linear-gradient(
+      91deg,
+      #9320da 5.37%,
+      #a23ed0 28.63%,
+      #8643db 51.45%,
+      #ea37d8 83.11%
+    );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .text-gradient-mobile {
-    background: linear-gradient(91deg, #9320DA 5.37%, #A23ED0 28.63%, #EA37D8 51.45%);
+    background: linear-gradient(
+      91deg,
+      #9320da 5.37%,
+      #a23ed0 28.63%,
+      #ea37d8 51.45%
+    );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .tokenomics {
-    background: linear-gradient(90deg, #7940DB 0%, #C426EE 60.58%);
+    background: linear-gradient(90deg, #7940db 0%, #c426ee 60.58%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .purple-gradient {
-    background: linear-gradient(90deg, #805FB8 0%, #3B009F 60.58%);
+    background: linear-gradient(90deg, #805fb8 0%, #3b009f 60.58%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -152,28 +174,48 @@
 
   .btn-gradient-purple {
     border-radius: 20px;
-    border: 1px solid #B683EA;
-    background: linear-gradient(92deg, rgba(147, 32, 218, 0.80) 9.88%, rgba(205, 109, 255, 0.80) 36.14%, rgba(173, 0, 255, 0.80) 65.36%, rgba(112, 0, 255, 0.47) 97.19%);
+    border: 1px solid #b683ea;
+    background: linear-gradient(
+      92deg,
+      rgba(147, 32, 218, 0.8) 9.88%,
+      rgba(205, 109, 255, 0.8) 36.14%,
+      rgba(173, 0, 255, 0.8) 65.36%,
+      rgba(112, 0, 255, 0.47) 97.19%
+    );
     box-shadow: 1px 3px 5px 2px rgba(93, 44, 122, 0.49);
   }
 
   .btn-gradient-dark {
     border-radius: 20px;
-    border: 1px solid #C29B00;
-    background: linear-gradient(92deg, rgba(195, 163, 34, 0.80) 9.73%, rgba(235, 191, 16, 0.80) 33.65%, rgba(245, 222, 128, 0.80) 60.25%, rgba(222, 177, 0, 0.80) 86.42%);
-    box-shadow: 1px 3px 5px 2px #BA8601;
+    border: 1px solid #de8305;
+    background: linear-gradient(
+      92deg,
+      #cd7905 9.73%,
+      #f7a634 33.65%,
+      #f3930c 60.25%,
+      #da8206 86.42%
+    );
+    box-shadow: 1px 3px 5px 2px #ba8601;
   }
 
   .btn-gradient-light {
     border-radius: 20px;
-    border: 1px solid #C6A10E;
-    background: linear-gradient(92deg, rgba(232, 185, 0, 0.80) 9.88%, rgba(245, 223, 135, 0.80) 40.2%, rgba(232, 200, 74, 0.80) 65.91%, rgba(170, 141, 24, 0.80) 97.19%);
-    box-shadow: 4px 4px 4px 2px rgba(186, 134, 1, 0.70);
+    border: 1px solid #de8305;
+    background: linear-gradient(
+      92deg,
+      #da8206 9.88%,
+      #ff9f17 40.2%,
+      #de8508 65.91%,
+      #de8305 97.19%
+    );
+    box-shadow: 4px 4px 4px 2px rgba(186, 134, 1, 0.7);
   }
 
   .animate-type {
     letter-spacing: 2px;
-    animation: type 1s steps(10) 1s forwards, blink 1s steps(1) infinite;
+    animation:
+      type 1s steps(10) 1s forwards,
+      blink 1s steps(1) infinite;
   }
 
   @keyframes type {

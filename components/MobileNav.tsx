@@ -24,63 +24,63 @@ const MobileNav = () => {
           className="mx-4 sm:hidden"
         />
       </SheetTrigger>
-      <SheetContent side="left" className="bg-gradient-to-r from-yellow-400 to-yellow-500 border-none">
+      <SheetContent
+        side="left"
+        className="bg-gradient-to-r from-[#999999] to-[#8a8a8a] border-none"
+      >
         <Link href="/" className="flex items-start justify-center ml-4">
-          <Image src="/background/b1.png" alt="Lemon Head" width={36} height={36} />
-          <p className="text-[#796100] text-3xl p-3 font-bold">LEMONHEAD</p>
+          <Image
+            src="/background/b1.png"
+            alt="PugHopiumInu"
+            width={36}
+            height={36}
+          />
+          <p className="text-[#e28357] text-3xl p-3 font-bold">PugHopiumInu</p>
         </Link>
         <SheetClose asChild>
           <section className="flex h-full flex-col gap-6 pt-16 items-start">
             <SheetClose className="border-none">
-              <div
-                className="flex items-center justify-start p-4 gap-4"
-              >
-                <Image
-                  src="/home.svg"
-                  alt=""
-                  width={20}
-                  height={20}
-                />
-                <button onClick={() => Scroll("home")} className="text-[#796100] font-bold text-xl">Home</button>
+              <div className="flex items-center justify-start p-4 gap-4">
+                <Image src="/home.svg" alt="" width={20} height={20} />
+                <button
+                  onClick={() => Scroll("home")}
+                  className="text-[#e28357] font-bold text-xl"
+                >
+                  Home
+                </button>
               </div>
             </SheetClose>
             <SheetClose className="border-none">
-              <div
-                className="flex items-center justify-start p-4 gap-4"
-              >
-                <Image
-                  src="/job.svg"
-                  alt=""
-                  width={20}
-                  height={20}
-                />
-                <button onClick={() => Scroll("about")} className="text-[#796100] font-bold text-xl">Tokenomics</button>
+              <div className="flex items-center justify-start p-4 gap-4">
+                <Image src="/job.svg" alt="" width={20} height={20} />
+                <button
+                  onClick={() => Scroll("about")}
+                  className="text-[#e28357] font-bold text-xl"
+                >
+                  Tokenomics
+                </button>
               </div>
             </SheetClose>
             <SheetClose className="border-none">
-              <div
-                className="flex items-center justify-start p-4 gap-4"
-              >
-                <Image
-                  src="/user.svg"
-                  alt=""
-                  width={20}
-                  height={20}
-                />
-                <button onClick={() => Scroll("roadmap")} className="text-[#796100] font-bold text-xl">Roadmap</button>
+              <div className="flex items-center justify-start p-4 gap-4">
+                <Image src="/user.svg" alt="" width={20} height={20} />
+                <button
+                  onClick={() => Scroll("roadmap")}
+                  className="text-[#e28357] font-bold text-xl"
+                >
+                  Roadmap
+                </button>
               </div>
             </SheetClose>
             <SheetClose className="border-none">
-              <div
-                  className="flex items-center justify-start p-4 gap-4"
-              >
-                <Image
-                    src="/home.svg"
-                    alt=""
-                    width={20}
-                    height={20}
-                />
-                <button onClick={() => Scroll("whitepaper")} className="text-[#796100] font-bold text-xl">Whitwpaper</button>
+              <div className="flex items-center justify-start p-4 gap-4">
+                <Image src="/home.svg" alt="" width={20} height={20} />
+                <button
+                  onClick={() => Scroll("whitepaper")}
+                  className="text-[#e28357] font-bold text-xl"
+                >
+                  Whitwpaper
+                </button>
               </div>
             </SheetClose>
           </section>
