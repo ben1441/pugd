@@ -61,7 +61,7 @@ const MobileNav = () => {
                 </button>
               </div>
             </SheetClose>
-            <SheetClose className="border-none">
+            {/* <SheetClose className="border-none">
               <div className="flex items-center justify-start p-4 gap-4">
                 <Image src="/user.svg" alt="" width={20} height={20} />
                 <button
@@ -71,10 +71,10 @@ const MobileNav = () => {
                   Roadmap
                 </button>
               </div>
-            </SheetClose>
+            </SheetClose> */}
             <SheetClose className="border-none">
               <div className="flex items-center justify-start p-4 gap-4">
-                <Image src="/home.svg" alt="" width={20} height={20} />
+                <Image src="/user.svg" alt="" width={20} height={20} />
                 <button
                   onClick={() => Scroll("whitepaper")}
                   className="text-[#93563a] font-bold text-xl"

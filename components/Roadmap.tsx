@@ -41,13 +41,13 @@ const Roadmap = () => {
             <p className="max-sm:text-lg text-xl font-bold text-[#93563a]">
               Buy: 0% <br />
               Marketing: 0% <br />
-              Liquidity: Automatic
+              Liquidity: 0%
             </p>
           </div>
           <div className="bg-white/20 glass-shadow mt-8 p-4 rounded-lg w-auto">
             <p className="max-sm:text-lg text-xl font-bold text-[#93563a]">
-              Sell: 1% <br />
-              Marketing: 0% <br />
+              Sell: 10% <br />
+              Marketing: 1% <br />
               Liquidity: 9%
             </p>
           </div>
