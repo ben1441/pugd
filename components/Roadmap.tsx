@@ -87,7 +87,7 @@ const Roadmap = () => {
         id="whitepaper"
         className="bg-white/20 rounded-lg glass-shadow w-3/4 max-w-[300px] h-14 mb-8 flex items-center justify-center"
       >
-        <Link href="/whitepaper.pdf">
+        <Link href="https://docs-67.gitbook.io/pughopiuminu/">
           <p className="text-[#ff9564]">Take a Look</p>
         </Link>
       </div>
