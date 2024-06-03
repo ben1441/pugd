@@ -20,7 +20,10 @@ const Footer = () => {
           </div>
         </Link>
       </div>
-      <div className="flex items-center justify-center text-[#93563a]">
+      <div className="flex flex-col items-center justify-center text-[#93563a] gap-2">
+        <Link href="mailto:team@pugo.wtf">
+          <p>team@pugo.wtf</p>
+        </Link>
         <p>&copy; PugHopiumInu. 2024 All right reserved.</p>
       </div>
     </div>
